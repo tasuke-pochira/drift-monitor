@@ -1,6 +1,6 @@
 # 🛡️ Automated MLOps Drift Detection Pipeline
 
-![Build Status](https://github.com/YOUR_USERNAME/drift-monitor/actions/workflows/drift_check.yml/badge.svg)
+![Build Status](https://github.com/tasuke-pochira/drift-monitor/actions/workflows/drift_check.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![Evidently AI](https://img.shields.io/badge/MLOps-Evidently_AI-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -10,7 +10,7 @@ In production machine learning, models degrade over time as real-world data chan
 
 This project is a **serverless MLOps pipeline** designed to automatically monitor model health. It runs a daily simulation to compare "reference" training data against "current" production data. If statistical drift is detected, it triggers a multi-channel alert system and publishes a detailed visual report.
 
-**Live Dashboard:** [🔗 Click here to view the Health Report](https://YOUR_USERNAME.github.io/drift-monitor/)
+**Live Dashboard:** [🔗 Click here to view the Health Report](https://tasuke-pochira.github.io/drift-monitor/)
 
 ---
 
@@ -52,25 +52,13 @@ graph LR
 
 ---
 
-## 📸 Screenshots
-
-### 1. The Alert (Discord)
-*The system notifies the team immediately upon drift detection.*
-![Discord Alert Example](https://via.placeholder.com/600x150?text=Place+Screenshot+of+Discord+Alert+Here)
-
-### 2. The Dashboard (Evidently)
-*A deep-dive visual report showing exactly which features (e.g., 'Salary') drifted.*
-![Dashboard Example](https://via.placeholder.com/600x300?text=Place+Screenshot+of+HTML+Report+Here)
-
----
-
 ## 🚀 How to Run Locally
 
 If you want to test the drift detection engine on your local machine:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/drift-monitor.git](https://github.com/YOUR_USERNAME/drift-monitor.git)
+    git clone [https://github.com/tasuke-pochira/drift-monitor.git](https://github.com/tasuke-pochira/drift-monitor.git)
     cd drift-monitor
     ```
 
