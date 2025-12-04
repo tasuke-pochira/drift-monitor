@@ -1,9 +1,8 @@
 # 🛡️ Automated MLOps Drift Detection Pipeline
 
-![Build Status](https://github.com/tasuke-pochira/drift-monitor/actions/workflows/drift_check.yml/badge.svg)
 ![Python](https://img.shields.io/badge/Python-3.9-blue)
 ![Evidently AI](https://img.shields.io/badge/MLOps-Evidently_AI-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
+
 
 ## 📖 Project Overview
 In production machine learning, models degrade over time as real-world data changes—a phenomenon known as **Data Drift**. 
