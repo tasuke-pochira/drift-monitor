@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-from evidently.report import Report
-from evidently.metric_preset import DataDriftPreset
+from evidently import Report
+from evidently.presets import DataDriftPreset
 import os
 import json
 
